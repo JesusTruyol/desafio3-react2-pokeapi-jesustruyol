@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar */
+.navbarbg{
+  background-color: #000000;
+}
+.active {
+  color: rgb(228, 185, 15);
+  }
+
+  .logo{
+    width: 15%;
+  }
+
+/* Home */
+.container-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-home img{
+  width: 25%;
+}
+
+/* Page Description */
+.types{
+  color:rgb(39, 171, 5)
+}
+.conatiner-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card{
+  background-color: rgba(59, 55, 55, 0.168);
+  box-shadow: 5px 8px rgba(59, 55, 55, 0.989);
+  padding: 2%;
+}
+.card-img{
+  display: flex;
+  justify-content: center;
+}
+.img-pokemon{
+  width: 100%;
+}
+.container-select{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* Movil */
+@media screen and (max-width: 500px){
+  
+  .card-img{
+    width: 100%;
+  }
+
+}
+
+/* Descktor */
+@media screen and (min-width: 960px){
+  .conatiner-description{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .container-card{
+    display: flex;
+    width: 100%;
+  }
+  
+  .card-img{
+    width: 60%;
+  }
+  .card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40%;
+    padding-left: 50px;
+  }
+
+}
+
+.container-NotFound{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emoji-NotFound{
+  font-size: 100px;
+  color: rgb(0, 0,0,0.5);
+  text-align: center;
+}
